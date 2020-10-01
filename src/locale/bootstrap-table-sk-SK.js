@@ -5,10 +5,10 @@
 
 $.fn.bootstrapTable.locales['sk-SK'] = {
   formatCopyRows () {
-    return 'Skopírovať riadky'
+    return 'Copy Rows'
   },
   formatPrint () {
-    return 'Vytlačiť'
+    return 'Print'
   },
   formatLoadingMessage () {
     return 'Prosím čakajte'
@@ -24,16 +24,16 @@ $.fn.bootstrapTable.locales['sk-SK'] = {
     return `Zobrazená ${pageFrom}. - ${pageTo}. položka z celkových ${totalRows}`
   },
   formatSRPaginationPreText () {
-    return 'Predchádzajúca strana'
+    return 'previous page'
   },
   formatSRPaginationPageText (page) {
-    return `na stranu ${page}`
+    return `to page ${page}`
   },
   formatSRPaginationNextText () {
-    return 'Nasledujúca strana'
+    return 'next page'
   },
   formatDetailPagination (totalRows) {
-    return `Zobrazuje sa ${totalRows} riadkov`
+    return `Showing ${totalRows} rows`
   },
   formatClearSearch () {
     return 'Odstráň filtre'
@@ -48,10 +48,10 @@ $.fn.bootstrapTable.locales['sk-SK'] = {
     return 'Skry/Zobraz stránkovanie'
   },
   formatPaginationSwitchDown () {
-    return 'Zobraziť stránkovanie'
+    return 'Show pagination'
   },
   formatPaginationSwitchUp () {
-    return 'Skryť stránkovanie'
+    return 'Hide pagination'
   },
   formatRefresh () {
     return 'Obnoviť'
@@ -60,46 +60,46 @@ $.fn.bootstrapTable.locales['sk-SK'] = {
     return 'Prepni'
   },
   formatToggleOn () {
-    return 'Zobraziť kartové zobrazenie'
+    return 'Show card view'
   },
   formatToggleOff () {
-    return 'skryť kartové zobrazenie'
+    return 'Hide card view'
   },
   formatColumns () {
     return 'Stĺpce'
   },
   formatColumnsToggleAll () {
-    return 'Prepnúť všetky'
+    return 'Toggle all'
   },
   formatFullscreen () {
-    return 'Celá obrazovka'
+    return 'Fullscreen'
   },
   formatAllRows () {
     return 'Všetky'
   },
   formatAutoRefresh () {
-    return 'Automatické obnovenie'
+    return 'Auto Refresh'
   },
   formatExport () {
     return 'Exportuj dáta'
   },
   formatJumpTo () {
-    return 'Ísť'
+    return 'GO'
   },
   formatAdvancedSearch () {
-    return 'Pokročilé vyhľadávanie'
+    return 'Advanced search'
   },
   formatAdvancedCloseButton () {
-    return 'Zatvoriť'
+    return 'Close'
   },
   formatFilterControlSwitch () {
-    return 'Zobraziť/Skryť tlačidlá'
+    return 'Hide/Show controls'
   },
   formatFilterControlSwitchHide () {
-    return 'Skryť tlačidlá'
+    return 'Hide controls'
   },
   formatFilterControlSwitchShow () {
-    return 'Zobraziť tlačidlá'
+    return 'Show controls'
   }
 }
 
